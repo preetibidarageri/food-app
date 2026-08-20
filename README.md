@@ -1,16 +1,56 @@
-# React + Vite
+# 🍴 Food App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive React-based Food App that allows users to search and explore recipes and view detailed information about selected food items.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Coming soon...
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Search for recipes
+- 🍕 Display food/recipe cards
+- 📖 View detailed recipe information
+- 🥗 Display ingredients
+- ⏱️ Show recipe preparation time
+- 👥 Display number of servings
+- 🖼️ Recipe images
+- 📱 Responsive design for desktop, tablet, and mobile
+- 🎨 Clean and modern user interface
 
-## Expanding the Oxlint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- CSS Modules
+- Spoonacular API
+
+## 📂 Project Structure
+
+```text
+foodapp/
+│
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
+│
+├── src/
+│   ├── components/
+│   │   ├── FoodDetails.jsx
+│   │   ├── FoodList.jsx
+│   │   ├── InnerComponent.jsx
+│   │   ├── Nav.jsx
+│   │   ├── OuterComponent.jsx
+│   │   └── Search.jsx
+│   │
+│   ├── App.css
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+└── vite.config.js
