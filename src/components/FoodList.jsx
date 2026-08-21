@@ -5,6 +5,7 @@ export default function FoodList({ foodData, setFoodId }) {
   return (
     <>
       <div className={styles.container}>
+        <h1 className={styles.heading}> 📑 Food List</h1>
         {foodData.map((food) => (
           <div className={styles.card} key={food.id}>
             <img className={styles.image} src={food.image} alt={food.title} />
