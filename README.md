@@ -4,7 +4,7 @@ A responsive React-based Food App that allows users to search and explore recipe
 
 ## 🚀 Live Demo
 
-Coming soon...
+https://preetibidarageri.github.io/food-app/
 
 ## 📌 Features
 
